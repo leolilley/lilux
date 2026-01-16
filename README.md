@@ -72,18 +72,18 @@ How Lilux scales to millions of directives.
 
 ---
 
-### Layer 2: Intelligence Distribution (The Brains)
+### Layer 2: Intelligence Distribution (The 4-Layer Stack)
 
 **[Multi-Net Agent Architecture](./docs/Multi-Net%20Agent%20Architecture.md)**
 
-How intelligence is distributed across specialized models.
+How intelligence is distributed across the 4-layer stack.
 
-- Small frontend (3B) - conversation + personality
-- Fast router (270M) - intent → tool translation
-- Directive execution - orchestration layer
-- High reasoning (70B) - only when needed
+1. **Frontend Model (3B-8B)** - Conversation + personality, generates [TOOL:] markers
+2. **Predictive Context Model (100-300M)** - Continuously searches/scores directives, pre-warms FunctionGemma's context
+3. **FunctionGemma Router (270M)** - Routes to primitives (search/load/execute) based on unified context
+4. **Execution Layer (Variable)** - Runs directives using model specified in XML (Claude/Llama/Qwen/etc.)
 
-**Key Insight**: No single model does everything. Right-sized intelligence at every layer.
+**Key Insight**: No single model does everything. Right-sized intelligence at every layer, with directives controlling execution model selection.
 
 ---
 
