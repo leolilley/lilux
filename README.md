@@ -8,7 +8,7 @@ This folder contains the complete vision, architecture, and implementation guide
 
 ## 🎯 Start Here
 
-### [LILUX_VISION.md](./LILUX_VISION.md) - **The North Star**
+### [LILUX_VISION.md](./docs/LILUX_VISION.md) - **The North Star**
 
 The complete vision document. Everything else flows from here.
 
@@ -25,7 +25,7 @@ The complete vision document. Everything else flows from here.
 
 ### Layer 1: Foundation (The 4-Model Architecture)
 
-**[MCP Integration - The Agent Loop Bridge](./MCP%20Integration%20-%20The%20Agent%20Loop%20Bridge.md)**
+**[MCP Integration - The Agent Loop Bridge](./docs/MCP%20Integration%20-%20The%20Agent%20Loop%20Bridge.md)**
 
 The bridge between Lilux and standard MCP infrastructure.
 
@@ -36,7 +36,7 @@ The bridge between Lilux and standard MCP infrastructure.
 
 **Key Insight**: We don't reinvent MCP. We use 95% of it, just swap the routing layer.
 
-**[Predictive Context Model - Continuous Directive Discovery](./Predictive%20Context%20Model%20-%20Continuous%20Directive%20Discovery.md)**
+**[Predictive Context Model - Continuous Directive Discovery](./docs/Predictive%20Context%20Model%20-%20Continuous%20Directive%20Discovery.md)**
 
 The prediction layer that pre-warms FunctionGemma's context.
 
@@ -50,7 +50,7 @@ The prediction layer that pre-warms FunctionGemma's context.
 
 **Key Insight**: FunctionGemma sees ONE context window. Prediction score determines how much detail each directive gets.
 
-**[Semantic Routing at Scale - Intent Discovery Layer](./Semantic%20Routing%20at%20Scale%20-%20Intent%20Discovery%20Layer.md)**
+**[Semantic Routing at Scale - Intent Discovery Layer](./docs/Semantic%20Routing%20at%20Scale%20-%20Intent%20Discovery%20Layer.md)**
 
 How Lilux scales to millions of directives.
 
@@ -74,7 +74,7 @@ How Lilux scales to millions of directives.
 
 ### Layer 2: Intelligence Distribution (The Brains)
 
-**[Multi-Net Agent Architecture](./Multi-Net%20Agent%20Architecture.md)**
+**[Multi-Net Agent Architecture](./docs/Multi-Net%20Agent%20Architecture.md)**
 
 How intelligence is distributed across specialized models.
 
@@ -89,7 +89,7 @@ How intelligence is distributed across specialized models.
 
 ### Layer 3: The Hardware Layer (Edge Computing)
 
-**[Why FunctionGemma for Tool Routing](./Why%20FunctionGemma%20for%20Tool%20Routing.md)**
+**[Why FunctionGemma for Tool Routing](./docs/Why%20FunctionGemma%20for%20Tool%20Routing.md)**
 
 Deep dive on model selection for the edge router.
 
@@ -98,7 +98,7 @@ Deep dive on model selection for the edge router.
 - Deployment considerations
 - Platform support (iOS, Android, Web, etc.)
 
-**[Training FunctionGemma for Kiwi MCP](./Training%20FunctionGemma%20for%20Kiwi%20MCP.md)**
+**[Training FunctionGemma for Kiwi MCP](./docs/Training%20FunctionGemma%20for%20Kiwi%20MCP.md)**
 
 How to fine-tune your own router.
 
@@ -107,7 +107,7 @@ How to fine-tune your own router.
 - Evaluation and metrics
 - Export for deployment (GGUF, CoreML, ONNX)
 
-**[Fine-Tuning the Reasoning Orchestrator](./Fine-Tuning%20the%20Reasoning%20Orchestrator.md)**
+**[Fine-Tuning the Reasoning Orchestrator](./docs/Fine-Tuning%20the%20Reasoning%20Orchestrator.md)**
 
 How to fine-tune the conversational frontend.
 
@@ -121,7 +121,7 @@ How to fine-tune the conversational frontend.
 
 ### Layer 4: Advanced Patterns (Optimization)
 
-**[Streaming Architecture & Concurrent Execution](./Streaming%20Architecture%20%26%20Concurrent%20Execution.md)**
+**[Streaming Architecture & Concurrent Execution](./docs/Streaming%20Architecture%20%26%20Concurrent%20Execution.md)**
 
 How to achieve sub-100ms responsiveness.
 
@@ -130,7 +130,7 @@ How to achieve sub-100ms responsiveness.
 - Parallel model coordination
 - Beam search and hook-based events
 
-**[Deployment Guide - Edge Device Implementation](./Deployment%20Guide%20-%20Edge%20Device%20Implementation.md)**
+**[Deployment Guide - Edge Device Implementation](./docs/Deployment%20Guide%20-%20Edge%20Device%20Implementation.md)**
 
 Deploy to every platform.
 
@@ -139,7 +139,7 @@ Deploy to every platform.
 - Android (NNAPI), Web (WebGPU)
 - Cross-platform wrapper
 
-**[Integration Patterns - Connecting All Components](./Integration%20Patterns%20-%20Connecting%20All%20Components.md)**
+**[Integration Patterns - Connecting All Components](./docs/Integration%20Patterns%20-%20Connecting%20All%20Components.md)**
 
 How everything connects.
 
@@ -153,7 +153,7 @@ How everything connects.
 
 ### Canonical References (Source of Truth)
 
-**[CANONICAL_ARCHITECTURE.md](./CANONICAL_ARCHITECTURE.md)** 📐 **NEW!**
+**[CANONICAL_ARCHITECTURE.md](./docs/CANONICAL_ARCHITECTURE.md)** 📐 **NEW!**
 
 The authoritative architecture diagram and layer definitions.
 
@@ -164,7 +164,7 @@ The authoritative architecture diagram and layer definitions.
 
 **Use this when:** You need the definitive architecture reference.
 
-**[GLOSSARY_AND_CONVENTIONS.md](./GLOSSARY_AND_CONVENTIONS.md)** 📖 **NEW!**
+**[GLOSSARY_AND_CONVENTIONS.md](./docs/GLOSSARY_AND_CONVENTIONS.md)** 📖 **NEW!**
 
 The single source of truth for terminology and formats.
 
@@ -183,9 +183,9 @@ The single source of truth for terminology and formats.
 
 ### Path 1: "I Want to Understand the Vision"
 
-1. [LILUX_VISION.md](./LILUX_VISION.md) - The complete picture
-2. [MCP Integration Bridge](./MCP%20Integration%20-%20The%20Agent%20Loop%20Bridge.md) - How it works with MCP
-3. [Multi-Net Architecture](./Multi-Net%20Agent%20Architecture.md) - The intelligence layers
+1. [LILUX_VISION.md](./docs/LILUX_VISION.md) - The complete picture
+2. [MCP Integration Bridge](./docs/MCP%20Integration%20-%20The%20Agent%20Loop%20Bridge.md) - How it works with MCP
+3. [Multi-Net Architecture](./docs/Multi-Net%20Agent%20Architecture.md) - The intelligence layers
 
 **Time**: 1-2 hours
 **Outcome**: Deep understanding of what Lilux is and why it matters
@@ -194,9 +194,9 @@ The single source of truth for terminology and formats.
 
 ### Path 2: "I Want to Build the Router"
 
-1. [Why FunctionGemma](./Why%20FunctionGemma%20for%20Tool%20Routing.md) - The model choice
-2. [Training FunctionGemma](./Training%20FunctionGemma%20for%20Kiwi%20MCP.md) - The how-to
-3. [Deployment Guide](./Deployment%20Guide%20-%20Edge%20Device%20Implementation.md) - Ship it
+1. [Why FunctionGemma](./docs/Why%20FunctionGemma%20for%20Tool%20Routing.md) - The model choice
+2. [Training FunctionGemma](./docs/Training%20FunctionGemma%20for%20Kiwi%20MCP.md) - The how-to
+3. [Deployment Guide](./docs/Deployment%20Guide%20-%20Edge%20Device%20Implementation.md) - Ship it
 
 **Time**: 4-8 hours
 **Outcome**: Working FunctionGemma router (3 primitives) deployed to your device
@@ -205,12 +205,12 @@ The single source of truth for terminology and formats.
 
 ### Path 3: "I Want to Build a Complete Agent"
 
-1. [MCP Integration Bridge](./MCP%20Integration%20-%20The%20Agent%20Loop%20Bridge.md) - The foundation
-2. [Predictive Context Model](./Predictive%20Context%20Model%20-%20Continuous%20Directive%20Discovery.md) - The psychic brain
-3. [Multi-Net Architecture](./Multi-Net%20Agent%20Architecture.md) - The 4-model structure
-4. [Training the Orchestrator](./Fine-Tuning%20the%20Reasoning%20Orchestrator.md) - The frontend
-5. [Streaming Architecture](./Streaming%20Architecture%20%26%20Concurrent%20Execution.md) - The optimization
-6. [Integration Patterns](./Integration%20Patterns%20-%20Connecting%20All%20Components.md) - Put it together
+1. [MCP Integration Bridge](./docs/MCP%20Integration%20-%20The%20Agent%20Loop%20Bridge.md) - The foundation
+2. [Predictive Context Model](./docs/Predictive%20Context%20Model%20-%20Continuous%20Directive%20Discovery.md) - The psychic brain
+3. [Multi-Net Architecture](./docs/Multi-Net%20Agent%20Architecture.md) - The 4-model structure
+4. [Training the Orchestrator](./docs/Fine-Tuning%20the%20Reasoning%20Orchestrator.md) - The frontend
+5. [Streaming Architecture](./docs/Streaming%20Architecture%20%26%20Concurrent%20Execution.md) - The optimization
+6. [Integration Patterns](./docs/Integration%20Patterns%20-%20Connecting%20All%20Components.md) - Put it together
 
 **Time**: 1-2 weeks
 **Outcome**: Production-ready 4-model agent with predictive context & sub-100ms routing

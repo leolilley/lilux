@@ -1529,16 +1529,16 @@ This is the Lilux experience: AI that feels instant, understands your system, an
 
 | Document                                                                                                                     | Description                       |
 | ---------------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
-| [**MCP Integration Bridge**](../../kiwi-fine-tune/MCP%20Integration%20-%20The%20Agent%20Loop%20Bridge.md)                    | How Lilux uses MCP infrastructure |
-| [**Semantic Routing at Scale**](../../kiwi-fine-tune/Semantic%20Routing%20at%20Scale%20-%20Intent%20Discovery%20Layer.md) ⚡ | Scaling to infinite directives    |
-| [**Multi-Net Architecture**](../../kiwi-fine-tune/Multi-Net%20Agent%20Architecture.md)                                       | Distributed intelligence layers   |
-| [**Predictive Context Model**](../../kiwi-fine-tune/Predictive%20Context%20Model%20-%20Continuous%20Directive%20Discovery.md) 🔮 | The "psychic brain" pre-warming context |
-| [Why FunctionGemma](../../kiwi-fine-tune/Why%20FunctionGemma%20for%20Tool%20Routing.md)                                      | Model selection rationale         |
-| [Training FunctionGemma](../../kiwi-fine-tune/Training%20FunctionGemma%20for%20Kiwi%20MCP.md)                                | Fine-tuning your router           |
-| [**Training the Orchestrator**](../../kiwi-fine-tune/Fine-Tuning%20the%20Reasoning%20Orchestrator.md)                        | Fine-tuning the reasoning brain   |
-| [Streaming Architecture](../../kiwi-fine-tune/Streaming%20Architecture%20%26%20Concurrent%20Execution.md)                    | Concurrent token generation       |
-| [Edge Deployment](../../kiwi-fine-tune/Deployment%20Guide%20-%20Edge%20Device%20Implementation.md)                           | Deploy to devices                 |
-| [Integration Patterns](../../kiwi-fine-tune/Integration%20Patterns%20-%20Connecting%20All%20Components.md)                   | Connecting everything             |
+| [**MCP Integration Bridge**](./MCP%20Integration%20-%20The%20Agent%20Loop%20Bridge.md)                    | How Lilux uses MCP infrastructure |
+| [**Semantic Routing at Scale**](./Semantic%20Routing%20at%20Scale%20-%20Intent%20Discovery%20Layer.md) ⚡ | Scaling to infinite directives    |
+| [**Multi-Net Architecture**](./Multi-Net%20Agent%20Architecture.md)                                       | Distributed intelligence layers   |
+| [**Predictive Context Model**](./Predictive%20Context%20Model%20-%20Continuous%20Directive%20Discovery.md) 🔮 | The "psychic brain" pre-warming context |
+| [Why FunctionGemma](./Why%20FunctionGemma%20for%20Tool%20Routing.md)                                      | Model selection rationale         |
+| [Training FunctionGemma](./Training%20FunctionGemma%20for%20Kiwi%20MCP.md)                                | Fine-tuning your router           |
+| [**Training the Orchestrator**](./Fine-Tuning%20the%20Reasoning%20Orchestrator.md)                        | Fine-tuning the reasoning brain   |
+| [Streaming Architecture](./Streaming%20Architecture%20%26%20Concurrent%20Execution.md)                    | Concurrent token generation       |
+| [Edge Deployment](./Deployment%20Guide%20-%20Edge%20Device%20Implementation.md)                           | Deploy to devices                 |
+| [Integration Patterns](./Integration%20Patterns%20-%20Connecting%20All%20Components.md)                   | Connecting everything             |
 
 ---
 
